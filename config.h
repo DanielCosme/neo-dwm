@@ -33,7 +33,7 @@ typedef struct {
 	const char *name;
 	const void *cmd;
 } Sp;
-const char *spcmd1[] = {TERMINAL, "-n", "spterm", "-g", "120x34", NULL };
+const char *spcmd1[] = {TERMINAL, "-n", "spterm", "-g", "110x40", NULL };
 const char *spcmd2[] = {TERMINAL, "-n", "spcalc", "-f", "monospace:size=16", "-g", "50x20", "-e", "bc", "-lq", NULL };
 static Sp scratchpads[] = {
 	/* name          cmd  */
@@ -150,8 +150,8 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,				XK_t,		setlayout,		{.v = &layouts[1]} }, /* bstack */
 	// { MODKEY,						XK_y,		setlayout,	{.v = &layouts[2]} }, /* spiral */
 	// { MODKEY|ShiftMask,				XK_y,		setlayout,	{.v = &layouts[3]} }, /* dwindle */
-	{ MODKEY|ShiftMask,				XK_M,		setlayout,		{.v = &layouts[4]} }, /* deck */
-	{ MODKEY,						XK_M,		setlayout,		{.v = &layouts[5]} }, /* monocle */
+	{ MODKEY|ShiftMask,				XK_m,		setlayout,		{.v = &layouts[4]} }, /* deck */
+	{ MODKEY,						XK_m,		setlayout,		{.v = &layouts[5]} }, /* monocle */
 	{ MODKEY,						XK_Y,		setlayout,		{.v = &layouts[6]} }, /* centeredmaster */
 	{ MODKEY|ShiftMask,				XK_Y,		setlayout,		{.v = &layouts[7]} }, /* centeredfloatingmaster */
 	{ MODKEY,						XK_F,		setlayout,		{.v = &layouts[8]} }, // floating
