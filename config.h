@@ -152,9 +152,9 @@ static Key keys[] = {
 	// { MODKEY|ShiftMask,				XK_y,		setlayout,	{.v = &layouts[3]} }, /* dwindle */
 	{ MODKEY|ShiftMask,				XK_m,		setlayout,		{.v = &layouts[4]} }, /* deck */
 	{ MODKEY,						XK_m,		setlayout,		{.v = &layouts[5]} }, /* monocle */
-	{ MODKEY,						XK_Y,		setlayout,		{.v = &layouts[6]} }, /* centeredmaster */
-	{ MODKEY|ShiftMask,				XK_Y,		setlayout,		{.v = &layouts[7]} }, /* centeredfloatingmaster */
-	{ MODKEY,						XK_F,		setlayout,		{.v = &layouts[8]} }, // floating
+	{ MODKEY,						XK_y,		setlayout,		{.v = &layouts[6]} }, /* centeredmaster */
+	{ MODKEY|ShiftMask,				XK_y,		setlayout,		{.v = &layouts[7]} }, /* centeredfloatingmaster */
+	{ MODKEY|ShiftMask,				XK_f,		setlayout,		{.v = &layouts[8]} }, // floating
 	{ MODKEY|ShiftMask,				XK_space,	togglefloating,	{0} },
 	//{ MODKEY,						XK_0,		view,			{.ui = ~0 } },	// WTF??
 	//{ MODKEY|ShiftMask,			XK_0,		tag,			{.ui = ~0 } },	// WTF??
